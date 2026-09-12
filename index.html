@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Al Barook Building</title>
+  <title>Al Barook Building - Luxury Furnished Residences in Ajman</title>
+  <meta name="description" content="Al Barook Building offers 80 fully furnished residences in Ajman with parking, security, and premium amenities.">
+  
   <!-- Google Font for Serif Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
@@ -15,124 +17,261 @@
 <body>
 
   <!-- Header / Navigation -->
-  <header>
-    <div class="brand">
-      <div class="logo">AB</div>
-      <div class="brand-text">
-        <h1>Al Barook Building</h1>
-        <span>Al Rumailah 1, Ajman</span>
+  <header class="sticky-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">AB</div>
+        <div class="brand-text">
+          <h1>Al Barook Building</h1>
+          <span>Premium Living in Ajman</span>
+        </div>
       </div>
+      <nav>
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#amenities" class="nav-link">Amenities</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
     </div>
-    <nav>
-      <a href="#home" class="active">Home</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#amenities">Amenities</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
   <!-- Hero Section -->
   <main class="hero" id="home">
-    <p class="subtitle">Al Zahra'a Street, Al Nakhil, Al Rumailah 1 — Ajman</p>
-    <h1 class="hero-title">Fully furnished living, quietly done well.</h1>
-    <p class="hero-description">
-      Al Barook Building offers 80 fully furnished residences and dedicated parking in Al Nakhil, near Al Ihsan Charity Association — a settled, well-kept address in Al Rumailah 1, Ajman.
-    </p>
+    <div class="hero-content">
+      <p class="subtitle">Located at Al Zahra'a Street, Al Nakhil, Ajman</p>
+      <h1 class="hero-title">Fully Furnished Living, Quietly Done Well</h1>
+      <p class="hero-description">
+        80 ready-to-live apartments with dedicated parking, 24/7 security, and premium amenities. Move in today without worrying about furnishings.
+      </p>
+      <a href="#contact" class="cta-button">Inquire Now</a>
+    </div>
 
     <div class="stats">
       <div class="stat-item">
         <div class="number">80</div>
-        <div class="label">Furnished flats</div>
+        <div class="label">Furnished Units</div>
       </div>
       <div class="stat-item">
         <div class="number">18</div>
-        <div class="label">Parking spaces</div>
+        <div class="label">Parking Spaces</div>
       </div>
       <div class="stat-item">
         <div class="number">10</div>
-        <div class="label">Residential floors</div>
+        <div class="label">Residential Floors</div>
+      </div>
+      <div class="stat-item">
+        <div class="number">100%</div>
+        <div class="label">Ready to Move</div>
       </div>
     </div>
   </main>
 
   <!-- About Section -->
-  <section id="about">
-    <div class="section-grid">
-      <h2>About the building</h2>
-      <div>
-        <p>Set on Al Zahra'a Street in the Al Nakhil district, Al Barook Building is a ten-storey residential address built for tenants who want to move in without buying a single piece of furniture. Every one of its 80 flats is fully furnished and ready to live in from day one.</p>
-        <p>The building sits close to Al Ihsan Charity Association in Al Rumailah 1, within easy reach of Ajman's everyday essentials, with on-site management that keeps plumbing, electrical, carpentry and painting work handled promptly.</p>
-        <p>Our commitment to excellence means your comfort and satisfaction are our priority. From maintenance to security, we handle every detail so you can focus on settling into your new home.</p>
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Al Barook Building</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Al Barook Building stands as a beacon of modern residential comfort in Al Rumailah 1, Ajman. Set on Al Zahra'a Street in the serene Al Nakhil district, this 10-storey residential landmark offers 80 fully furnished apartments designed for those who value quality and convenience.</p>
+          
+          <p>Every unit comes ready to live in from day one—no furniture shopping, no setup delays. Our commitment extends beyond providing apartments; we ensure a lifestyle where comfort meets professionalism.</p>
+          
+          <p>From prompt maintenance services to 24/7 security surveillance, from central air conditioning to dedicated parking, every detail has been carefully considered for your peace of mind.</p>
+        </div>
+        <div class="highlights">
+          <h3>Why Choose Al Barook?</h3>
+          <ul>
+            <li>✓ Fully furnished, move-in ready</li>
+            <li>✓ 24/7 professional security</li>
+            <li>✓ Central AC system</li>
+            <li>✓ On-site maintenance team</li>
+            <li>✓ Dedicated parking</li>
+            <li>✓ Prime neighborhood location</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Gallery Section -->
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <p class="gallery-subtitle">Explore our fully furnished flats and building facilities</p>
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <div class="gallery-placeholder">Building Exterior</div>
-        <p>Modern residential architecture</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">Living Room</div>
-        <p>Spacious and well-lit</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">Bedroom</div>
-        <p>Comfortable furnishings</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">Kitchen</div>
-        <p>Fully equipped</p>
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p class="section-subtitle">Experience the comfort and elegance of Al Barook apartments</p>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="gallery-image building-exterior">
+            <span>Building Exterior</span>
+          </div>
+          <div class="gallery-info">
+            <h3>Modern Architecture</h3>
+            <p>10-storey residential building with contemporary design</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <div class="gallery-image living-room">
+            <span>Living Room</span>
+          </div>
+          <div class="gallery-info">
+            <h3>Spacious Living Areas</h3>
+            <p>Well-designed living spaces with natural light</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <div class="gallery-image bedroom">
+            <span>Bedroom</span>
+          </div>
+          <div class="gallery-info">
+            <h3>Comfortable Bedrooms</h3>
+            <p>Fully furnished with premium furnishings</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item">
+          <div class="gallery-image kitchen">
+            <span>Kitchen</span>
+          </div>
+          <div class="gallery-info">
+            <h3>Modern Kitchen</h3>
+            <p>Fully equipped with essential appliances</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image bathroom">
+            <span>Bathroom</span>
+          </div>
+          <div class="gallery-info">
+            <h3>Modern Bathrooms</h3>
+            <p>Equipped with quality fixtures</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-image parking">
+            <span>Parking</span>
+          </div>
+          <div class="gallery-info">
+            <h3>Dedicated Parking</h3>
+            <p>18 secure parking spaces for residents</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Features Section -->
-  <section id="amenities">
-    <h2>What's included</h2>
-    <div class="bullet-grid">
-      <div class="bullet-item">
-        <strong>Fully furnished</strong>
-        <p>All 80 units come ready-furnished — no setup needed on move-in. Each flat includes bedroom, living room, and kitchen furniture.</p>
+  <!-- Amenities Section -->
+  <section id="amenities" class="amenities-section">
+    <div class="container">
+      <h2>What's Included</h2>
+      <p class="section-subtitle">Premium features for comfortable living</p>
+      
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="amenity-icon">🛋️</div>
+          <h3>Fully Furnished</h3>
+          <p>All 80 units come ready-furnished with bedroom, living room, and kitchen furniture. No setup needed on move-in.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">🅿️</div>
+          <h3>Dedicated Parking</h3>
+          <p>18 secure parking spaces available exclusively to residents with controlled access.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">🔒</div>
+          <h3>24/7 CCTV Security</h3>
+          <p>Round-the-clock surveillance system ensuring your safety and peace of mind at all times.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">🔧</div>
+          <h3>Maintenance On Call</h3>
+          <p>Professional in-house team handles plumbing, electrical, carpentry and painting services promptly.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">❄️</div>
+          <h3>Central AC System</h3>
+          <p>Centralized air conditioning system maintaining comfort throughout the year in all units.</p>
+        </div>
+
+        <div class="amenity-card">
+          <div class="amenity-icon">📍</div>
+          <h3>Prime Location</h3>
+          <p>Close to pharmacy, hospital, mosque, and restaurants. Near Al Ihsan Charity Association in Al Nakhil.</p>
+        </div>
       </div>
-      <div class="bullet-item">
-        <strong>On-site parking</strong>
-        <p>18 dedicated parking spaces available to residents with secure access.</p>
-      </div>
-      <div class="bullet-item">
-        <strong>24/7 CCTV Security</strong>
-        <p>Round-the-clock surveillance for your safety and peace of mind.</p>
-      </div>
-      <div class="bullet-item">
-        <strong>Maintenance on call</strong>
-        <p>Plumbing, electrical, carpentry and painting handled in-house by our professional team.</p>
-      </div>
-      <div class="bullet-item">
-        <strong>Central AC</strong>
-        <p>Centralized air conditioning system for comfort throughout the year.</p>
-      </div>
-      <div class="bullet-item">
-        <strong>Prime location</strong>
-        <p>Close to pharmacy, hospital, mosque, and restaurant. Steps from Al Ihsan Charity Association in Al Nakhil.</p>
+    </div>
+  </section>
+
+  <!-- Rental Info Section -->
+  <section class="rental-info-section">
+    <div class="container">
+      <h2>Rental Information</h2>
+      <div class="rental-grid">
+        <div class="rental-card">
+          <h3>1 Bedroom Flat</h3>
+          <p class="price">AED 25,000</p>
+          <p class="term">1 Year Lease</p>
+          <p class="note">Negotiable rates available</p>
+        </div>
+        <div class="rental-card">
+          <h3>Lease Term</h3>
+          <p class="price">1 Year</p>
+          <p class="term">Flexible Options</p>
+          <p class="note">Terms can be negotiated</p>
+        </div>
+        <div class="rental-card">
+          <h3>Move-In Status</h3>
+          <p class="price">Ready Now</p>
+          <p class="term">Immediate Occupancy</p>
+          <p class="note">No waiting period</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
-    <div class="section-grid">
-      <h2>Interested in a flat?</h2>
-      <div class="contact-info">
-        <p>Reach out for availability, viewing times and rates. Available for 1-year rent on negotiable terms.</p>
-        <a href="tel:+971555400765" class="phone">📞 +971 555 400765</a>
-        <a href="mailto:barookbldg@gmail.com" class="email">✉️ barookbldg@gmail.com</a>
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Interested in a Flat?</h2>
+      <p class="section-subtitle">Reach out for availability, viewing times, and rates</p>
+      
+      <div class="contact-methods">
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>Call Us</h3>
+          <a href="tel:+971555400765" class="contact-link">+971 555 400765</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <h3>Email Us</h3>
+          <a href="mailto:barookbldg@gmail.com" class="contact-link">barookbldg@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Visit Us</h3>
+          <p>Al Zahra'a Street, Al Nakhil<br>Al Rumailah 1, Ajman, UAE</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Al Barook Building. All rights reserved.</p>
+      <p>Al Zahra'a Street, Al Nakhil, Al Rumailah 1, Ajman, UAE</p>
+    </div>
+  </footer>
 
   <!-- External JS -->
   <script src="script.js"></script>
