@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Barook Building - Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <h1>🏢 Al Barook</h1>
+        <p>Management</p>
+      </div>
+      <div class="nav-menu">
+        <button class="nav-btn active" data-section="dashboard">Dashboard</button>
+        <button class="nav-btn" data-section="flats">Flats</button>
+        <button class="nav-btn" data-section="rent">Rent</button>
+        <button class="nav-btn" data-section="expenses">Expenses</button>
+        <button class="nav-btn" data-section="reminders">Reminders</button>
+        <button class="nav-btn" data-section="reports">Reports</button>
+      </div>
+    </nav>
+
+    <main class="content">
+      <section id="dashboard" class="section active">
+        <h2>Dashboard</h2>
+        <div class="dashboard-grid">
+          <div class="card stats">
+            <h3>Total Flats</h3>
+            <p class="big-number">80</p>
+          </div>
+          <div class="card stats">
+            <h3>Occupied</h3>
+            <p class="big-number" id="occupied">0</p>
+          </div>
+          <div class="card stats">
+            <h3>Rent Collected</h3>
+            <p class="big-number" id="totalRent">AED 0</p>
+          </div>
+          <div class="card stats">
+            <h3>Expenses</h3>
+            <p class="big-number" id="totalExpenses">AED 0</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="flats" class="section">
+        <h2>Flat Management</h2>
+        <table class="table" id="flatsTable">
+          <thead>
+            <tr>
+              <th>Flat No.</th>
+              <th>Floor</th>
+              <th>Type</th>
+              <th>Tenant</th>
+              <th>Contact</th>
+              <th>Rent</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="rent" class="section">
+        <h2>Rent Collection</h2>
+        <table class="table" id="rentTable">
+          <thead>
+            <tr>
+              <th>Flat</th>
+              <th>Tenant</th>
+              <th>Expected Rent</th>
+              <th>Received</th>
+              <th>Status</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="expenses" class="section">
+        <h2>Maintenance Expenses</h2>
+        <div class="expense-summary" id="expenseSummary"></div>
+        <table class="table" id="expensesTable">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th>Vendor</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="reminders" class="section">
+        <h2>Payment Reminders</h2>
+        <table class="table" id="remindersTable">
+          <thead>
+            <tr>
+              <th>Flat</th>
+              <th>Tenant</th>
+              <th>Email</th>
+              <th>Last Reminder</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section id="reports" class="section">
+        <h2>Reports</h2>
+        <div class="report-summary" id="reportSummary"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
